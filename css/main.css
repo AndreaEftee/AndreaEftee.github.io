@@ -1,0 +1,230 @@
+/* GLOBAL STYLES */
+html {
+  background: gray;
+  box-shadow: 0 0 0 30px inset;
+  padding:0 30px;
+}
+body {
+  font-family: helvetica, arial, sans;
+
+}
+a{
+  color:#f00;
+}
+h2 ~ p {
+  font-size:0.8em;
+  font-style:italic;
+  margin: 1em auto 0;
+  max-width:70%;
+  text-align:center;
+}
+h2 {
+  text-align:center;
+  font-size: 30px;
+  color:white;
+}
+
+h3 {
+  color:white;
+}
+ul {
+  color:white;
+}
+p {
+  color:white;
+}
+/* HEADER STYLES */
+.header {
+  background-color:black;
+  position:fixed;
+  padding-top:20px;
+  margin-top:-70px;
+  width:100%;
+  z-index:20;
+}
+.header-nav {
+  float:right;
+  padding:5.5vh 60px 0 0;
+}
+/* FOOTER STYLES */
+.footer {
+  background-color:black;
+  padding:10vh 0 15vh;
+  text-align:center;
+}
+.footer h3{
+  color:#fff;
+  padding-top:1.5em;
+  text-transform: uppercase;
+}
+.footer-nav li {
+  display: inline-block;
+  margin: 2em 1em 0;
+}
+.footer-nav a{
+  color:white;
+}
+/* HERO STYLES */
+.full-hero {
+  background-color:black;
+  background-size:contain;
+  box-sizing:border-box;
+  height:100vh;
+  padding-top:10vh;
+  background-repeat:no-repeat;
+  background-position:center;
+  margin:auto;
+}
+/*  COMMENTED OUT TO TEST
+.full-hero:after {
+  bottom: 2vh;
+  border: 10px solid;
+  border-color:#fff transparent transparent;
+  content: "";
+  height:-50px;
+  left:50%;
+  position:absolute;
+  transform:translate(-50%,0);
+  width:0;
+}
+*/
+.hero-home {
+  background-image: url(/images/AndreaEftee.jpg)
+}
+.hero-content {
+  position:relative;
+  text-align:center;
+  text-transform:uppercase;
+  top:50%;
+  transform:translate(0,-50%);
+}
+.hero-content h1 {
+  padding-top:770px;
+  color: rgba(255,255,255,0.8);
+  font-size:7vw;
+  margin-bottom:0.25em;
+}
+.hero-content .social-link{
+  background-color:rgba(255,255,255,0.8);
+}
+/*BUTTON STYLES */
+.nav-button {
+  background-color: rgba(0,0,0,1);
+  border-color:#FFF;
+  border-radius:99px;
+  box-sizing:border-box;
+  display:inline-block;
+  font-family: helvetica, arial, sans;
+  font-size:1rem;
+  font-weight:bold;
+  height:2.5em;
+  line-height:1;
+  padding-top:.15em;
+  text-align:center;
+  text-decoration:none;
+  vertical-align:middle;
+  width:4em;
+}
+.nav-button a{
+  text-decoration:none;
+  font-size:1rem;
+  font-weight:bold;
+  padding-top:-3.5em;
+  font-family:helvetica, arial, sans;
+  display:inline-block;
+  text-align:center;
+  vertical-align:middle;
+  color:white;
+}
+.nav-button a:hover, .nav-button a:active {
+  color:gray;
+}
+.header-nav-button-list > li:first-child a {
+  color:gray;
+}
+.nav-button-list > li:first-child a:hover{
+  color:white;
+}
+.header-nav-button-list {
+  float:right;
+  padding:5.5vh 60px 0 0;
+}
+.header-nav-button-list > li {
+  display:inline-block;
+  margin-left: 1em;
+}
+.header-nav-button-list a{
+  font-size:0.8rem;
+  font-weight:bold;
+  text-decoration:none;
+  text-transform:uppercase;
+}
+.header-nav-button-list > li ~ li {
+  border-left: 1px solid rgba(0,0,0,0.3);
+  padding-left: 1em;
+}
+
+/* BIO STYLES */
+ .bio-box {
+   background-color:black;
+   border: 1px solid white;
+   box-sizing: border-box;
+   font-size:1rem;
+   margin: 40px 1% 0;
+   padding:0 2% 2%;
+ }
+ .bio-box h3{
+   padding:40px;
+   text-align:center;
+   margin:-40px 0 1em;
+   font-size:1.5em;
+ }
+ .bio-copy {
+   font-size: 1em;
+   text-decoration:none;
+ }
+ .bio-copy a {
+   color:green;
+   text-decoration:none;
+ }
+ .bio-wrapper {
+   background-color:black;
+   font-size:24px;
+   margin:auto;
+   max-width:900px
+ }
+ /* SOCIAL STYLES */
+ .social-button {
+   list-style:none;
+ }
+ .social-button > li {
+   display:inline-block;
+ }
+ .social-link-button {
+   list-style:none;
+
+   background-color:rgba(39,114,245,0.8);
+   border-color:white;
+   color:white;
+   text-decoration:none;
+   border-radius:99px;
+   box-sizing:border-box;
+ }
+ .social-link-button a:hover, .social-link-button a:active {
+   opacity: 0.5;
+ }
+ .social-link-button a{
+   color:white;
+   font-family:helvetica, arial, sans;
+   font-size:1rem;
+   font-weight:bold;
+   height:2.5em;
+   line-height:1;
+   padding-top:.15em;
+   text-decoration:none;
+   vertical-align:middle;
+   width:2.5em;
+ }
+ .social-link-button a:hover {
+   color:rgba(0,0,0,0.5);
+ }
